@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: hsl(356, 73%, 59%);
+    --hover-color: hsl(356, 93%, 59%);
+}
+
+html,
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#wiki{
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    color: #333;
+}
+.container{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+img{
+    width: 12%;
+    height: auto;
+    user-select: none;
+}
+h2{
+    color: var(--primary-color);
+    margin-top: 20px;
+    font-size: 2.2rem;
+}
+h1{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    color: var(--hover-color);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.form{
+    margin-top: 15px;
+}
+.form-input{
+    width: 70%;
+    padding: 10px 16px;
+    border: 1px solid #ccc;
+    outline: 0;
+    border-radius: 8px;
+    font-size: 18px;
+}
+.submit-btn{
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 6px;
+    border: 0;
+    margin-left: 8px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.submit-btn:hover{
+    background-color: var(--hover-color);
+}
+.results{
+    margin-top: 20px;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    color: #444;
+    border-radius: 6px;
+}
+.results a {
+    text-decoration: none;
+}
+.results p {
+    margin: 0;
+}
+.results a h4{
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 4px;
+    font-size: 18px;
+}
+.results a p{
+    background-color: #344587;
+    margin-bottom: 20px;
+    color: #fff;
+    padding: 25px;
+}
+.error{
+    font-size: 25px;
+    background-color: var(--primary-color);
+    padding: 15px;
+    color: #fff;
+    border-radius: 4px;
+}
